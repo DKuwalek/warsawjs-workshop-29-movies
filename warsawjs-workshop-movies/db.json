@@ -1,0 +1,56 @@
+{
+  "movies": [
+    {
+      "id": 5,
+      "title": "Airplane",
+      "genre": "Comedy",
+      "numberInStock": 7,
+      "dailyRentalRate": 3.5,
+      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
+    },
+    {
+      "id": 6,
+      "title": "Wedding Crashers",
+      "genre": "Comedy",
+      "numberInStock": 7,
+      "dailyRentalRate": 3.5,
+      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
+    },
+    {
+      "id": 7,
+      "title": "Gone Girl",
+      "genre": "Thriller",
+      "numberInStock": 7,
+      "dailyRentalRate": 4.5,
+      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
+    },
+    {
+      "id": 8,
+      "title": "The Sixth Sense",
+      "genre": "Thriller",
+      "numberInStock": 4,
+      "dailyRentalRate": 3.5,
+      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
+    },
+    {
+      "id": 9,
+      "title": "The Avengers",
+      "genre": "Action",
+      "numberInStock": 7,
+      "dailyRentalRate": 3.5,
+      "imageUrl": "http://www.pngmart.com/files/5/Movie-PNG-Transparent-Image.png"
+    },
+    {
+      "title": "Dingo",
+      "id": 11
+    },
+    {
+      "title": "Dododo de doo",
+      "id": 12
+    },
+    {
+      "title": "Dastingo",
+      "id": 13
+    }
+  ]
+}

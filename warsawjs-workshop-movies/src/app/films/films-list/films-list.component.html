@@ -1,0 +1,19 @@
+<section class="film-list" *ngIf="films.length">
+  <h1>Headeringo</h1>
+  <mat-card class="film-card" *ngFor="let film of films; let i = index">
+    <mat-card-title> {{film.title}} ORAZ {{film.id}}</mat-card-title>
+    <mat-card-content>
+      <img mat-card-image src="">
+      <mat-card-subtitle></mat-card-subtitle>
+    </mat-card-content>
+    <mat-card-actions>
+      <a mat-icon-button (click)="toggleFilmDetails()">Show film detail</a>
+    </mat-card-actions>
+    <app-film-details *ngIf="filmsDetailIsVisible" [film]=film></app-film-details>
+    
+      <button type="submit" (click)="deleteFilm(film.id)">Deletinos </button>
+      <button type="submit" routerLink="edit/{{film.id}}">Editinio! </button>
+
+
+  </mat-card>
+</section>
