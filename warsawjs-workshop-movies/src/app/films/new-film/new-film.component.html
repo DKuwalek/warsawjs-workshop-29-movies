@@ -1,0 +1,21 @@
+<form [formGroup]="filmForm" (ngSubmit)="onSubmit()">
+    <div class="row">
+      <div class="col col-md-6">
+        <mat-form-field>
+          <label for="title">Film title</label>
+          <input matInput
+          type="text"
+          id="title"
+          formControlName="title">
+        </mat-form-field>
+      </div>
+    </div>
+    <button type="submite">El Buttone</button>
+</form>
+
+
+<!-- title: new FormControl('', Validators.required),
+      genre: new FormControl('', Validators.required),
+      numberInStock: new FormControl('', Validators.required),
+      dailyRentalRate: new FormControl('', Validators.required),
+      imageUrl: new FormControl('', Validators.required), -->
